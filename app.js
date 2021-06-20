@@ -5,3 +5,9 @@ for(const slide of slides){
         slide.classList.add("active")
     })
 }
+
+function clearActiveClasses(){
+    for(slide of slides){   
+        slide.classList.remove("active")
+    }
+}
